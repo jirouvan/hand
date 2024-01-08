@@ -14,20 +14,8 @@ wScr, hScr = autopy.screen.size()
 # 全局变量 画笔拿起flag==0 画笔落下flag==1
 flag = [0, 0]
 
-"""毕业设计：基于mediapipe的手部识别系统
-
-学校：桂林理工大学
-班级：通信工程20-3班
-作者姓名：王中天
-学号：3202052052130
-指导老师：李新
-
-1. 代码完全由作者构建，仅借鉴mediapipe官方网站示例代码
-2. 任何使用方式请遵循开源开发者使用协议
-"""
-
 def get_args():
-    parser = argparse.ArgumentParser(description='桂林理工大学 通信工程20-3班 王中天 学号3202052052130')
+    parser = argparse.ArgumentParser(description='任何使用方式请遵循开源开发者使用协议')
 
     parser.add_argument("--device", type=int, default=0, help='使用摄像头的编号，默认为0')
     parser.add_argument("--huaquan", type=bool, default=True, help='是否画出手部的bbox')
