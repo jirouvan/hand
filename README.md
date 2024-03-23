@@ -3,7 +3,7 @@
 
 如果您已经安装了anaconda、cuda和cudnn，可以在进入项目路径的情况下，激活conda并使用下面的命令进行基本的环境安装
 ```angular2html
-conda env create -n bci_env -f mi_env.yaml
+conda env create -n bishe -f bishe.yaml
 ```
 安装完成后可以输入
 ```angular2html
